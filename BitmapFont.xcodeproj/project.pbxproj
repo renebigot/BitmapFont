@@ -7,9 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45F9A3FE1D73FB070037283C /* BitmapFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F9A3FD1D73FB070037283C /* BitmapFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4550AE7D1D76A30000493CBB /* XmlBitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550AE7C1D76A30000493CBB /* XmlBitmapFontParser.swift */; };
+		4550AE7E1D76A3E400493CBB /* XmlBitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550AE7C1D76A30000493CBB /* XmlBitmapFontParser.swift */; };
+		4550AE7F1D76A3E500493CBB /* XmlBitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550AE7C1D76A30000493CBB /* XmlBitmapFontParser.swift */; };
+		4550AE801D76A3E700493CBB /* XmlBitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550AE7C1D76A30000493CBB /* XmlBitmapFontParser.swift */; };
+		4550AE841D772DBD00493CBB /* XmlParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550AE831D772DBD00493CBB /* XmlParserTests.swift */; };
+		4550AE851D772DBD00493CBB /* XmlParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550AE831D772DBD00493CBB /* XmlParserTests.swift */; };
+		4550AE861D772DBD00493CBB /* XmlParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4550AE831D772DBD00493CBB /* XmlParserTests.swift */; };
+		45DBC4C31D784709008A8082 /* TxtParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4C11D784703008A8082 /* TxtParserTests.swift */; };
+		45DBC4C41D78470E008A8082 /* TxtParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4C11D784703008A8082 /* TxtParserTests.swift */; };
+		45DBC4C51D78470F008A8082 /* TxtParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4C11D784703008A8082 /* TxtParserTests.swift */; };
+		45DBC4C71D7847EC008A8082 /* BitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4C61D7847EC008A8082 /* BitmapFontParser.swift */; };
+		45DBC4C81D7847EC008A8082 /* BitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4C61D7847EC008A8082 /* BitmapFontParser.swift */; };
+		45DBC4C91D7847EC008A8082 /* BitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4C61D7847EC008A8082 /* BitmapFontParser.swift */; };
+		45DBC4CA1D7847EC008A8082 /* BitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4C61D7847EC008A8082 /* BitmapFontParser.swift */; };
+		45DBC4CC1D78499D008A8082 /* TxtBitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4CB1D78499D008A8082 /* TxtBitmapFontParser.swift */; };
+		45DBC4CD1D78499D008A8082 /* TxtBitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4CB1D78499D008A8082 /* TxtBitmapFontParser.swift */; };
+		45DBC4CE1D78499D008A8082 /* TxtBitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4CB1D78499D008A8082 /* TxtBitmapFontParser.swift */; };
+		45DBC4CF1D78499D008A8082 /* TxtBitmapFontParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45DBC4CB1D78499D008A8082 /* TxtBitmapFontParser.swift */; };
 		45F9A4051D73FB070037283C /* BitmapFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F9A3FA1D73FB070037283C /* BitmapFont.framework */; };
-		45F9A40A1D73FB070037283C /* BitmapFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4091D73FB070037283C /* BitmapFontTests.swift */; };
+		45F9A41C1D73FBB50037283C /* BitmapFont-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F9A4161D73FBB50037283C /* BitmapFont-iOS.h */; };
+		45F9A43C1D73FBF30037283C /* BitmapFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F9A4321D73FBF30037283C /* BitmapFont.framework */; };
+		45F9A4581D73FC010037283C /* BitmapFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F9A44E1D73FC010037283C /* BitmapFont.framework */; };
+		45F9A4671D73FC760037283C /* BitmapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4661D73FC760037283C /* BitmapFont.swift */; };
+		45F9A4681D73FC760037283C /* BitmapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4661D73FC760037283C /* BitmapFont.swift */; };
+		45F9A4691D73FC760037283C /* BitmapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4661D73FC760037283C /* BitmapFont.swift */; };
+		45F9A46A1D73FC760037283C /* BitmapFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4661D73FC760037283C /* BitmapFont.swift */; };
+		45F9A4731D73FC850037283C /* BitmapFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A46C1D73FC850037283C /* BitmapFontTests.swift */; };
+		45F9A4741D73FC850037283C /* BitmapFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A46C1D73FC850037283C /* BitmapFontTests.swift */; };
+		45F9A4751D73FC850037283C /* BitmapFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A46C1D73FC850037283C /* BitmapFontTests.swift */; };
+		45F9A49A1D73FDD60037283C /* TXT-Font in Resources */ = {isa = PBXBuildFile; fileRef = 45F9A4981D73FDD60037283C /* TXT-Font */; };
+		45F9A49B1D73FDD60037283C /* TXT-Font in Resources */ = {isa = PBXBuildFile; fileRef = 45F9A4981D73FDD60037283C /* TXT-Font */; };
+		45F9A49C1D73FDD60037283C /* TXT-Font in Resources */ = {isa = PBXBuildFile; fileRef = 45F9A4981D73FDD60037283C /* TXT-Font */; };
+		45F9A4BF1D7400870037283C /* BitmapFont-macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F9A4BD1D7400870037283C /* BitmapFont-macOS.h */; };
+		45F9A4C41D7400920037283C /* BitmapFont-tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F9A4C21D7400920037283C /* BitmapFont-tvOS.h */; };
+		45F9A4C91D74009A0037283C /* BitmapFont-watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F9A4C71D74009A0037283C /* BitmapFont-watchOS.h */; };
+		45F9A4D61D75E5730037283C /* BitmapFont-Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4D51D75E5730037283C /* BitmapFont-Structs.swift */; };
+		45F9A4D71D75E5730037283C /* BitmapFont-Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4D51D75E5730037283C /* BitmapFont-Structs.swift */; };
+		45F9A4D81D75E5730037283C /* BitmapFont-Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4D51D75E5730037283C /* BitmapFont-Structs.swift */; };
+		45F9A4D91D75E5730037283C /* BitmapFont-Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9A4D51D75E5730037283C /* BitmapFont-Structs.swift */; };
+		45F9A4DB1D75E84B0037283C /* XML-Font in Resources */ = {isa = PBXBuildFile; fileRef = 45F9A4DA1D75E84B0037283C /* XML-Font */; };
+		45F9A4DC1D75E84B0037283C /* XML-Font in Resources */ = {isa = PBXBuildFile; fileRef = 45F9A4DA1D75E84B0037283C /* XML-Font */; };
+		45F9A4DD1D75E84B0037283C /* XML-Font in Resources */ = {isa = PBXBuildFile; fileRef = 45F9A4DA1D75E84B0037283C /* XML-Font */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +59,51 @@
 			remoteGlobalIDString = 45F9A3F91D73FB070037283C;
 			remoteInfo = BitmapFont;
 		};
+		45F9A43D1D73FBF30037283C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F9A3F11D73FB070037283C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F9A4311D73FBF30037283C;
+			remoteInfo = "BitmapFont-tvOS";
+		};
+		45F9A4591D73FC010037283C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45F9A3F11D73FB070037283C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45F9A44D1D73FC010037283C;
+			remoteInfo = "BitmapFont-macOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4550AE7C1D76A30000493CBB /* XmlBitmapFontParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlBitmapFontParser.swift; sourceTree = "<group>"; };
+		4550AE831D772DBD00493CBB /* XmlParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlParserTests.swift; sourceTree = "<group>"; };
+		45DBC4C11D784703008A8082 /* TxtParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxtParserTests.swift; sourceTree = "<group>"; };
+		45DBC4C61D7847EC008A8082 /* BitmapFontParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapFontParser.swift; sourceTree = "<group>"; };
+		45DBC4CB1D78499D008A8082 /* TxtBitmapFontParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxtBitmapFontParser.swift; sourceTree = "<group>"; };
 		45F9A3FA1D73FB070037283C /* BitmapFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitmapFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F9A3FD1D73FB070037283C /* BitmapFont.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitmapFont.h; sourceTree = "<group>"; };
-		45F9A3FF1D73FB070037283C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F9A4041D73FB070037283C /* BitmapFontTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmapFontTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F9A4091D73FB070037283C /* BitmapFontTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitmapFontTests.swift; sourceTree = "<group>"; };
-		45F9A40B1D73FB070037283C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9A4041D73FB070037283C /* BitmapFontTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BitmapFontTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F9A4161D73FBB50037283C /* BitmapFont-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitmapFont-iOS.h"; sourceTree = "<group>"; };
+		45F9A4171D73FBB50037283C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9A41B1D73FBB50037283C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9A4251D73FBE20037283C /* BitmapFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitmapFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F9A4321D73FBF30037283C /* BitmapFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitmapFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F9A43B1D73FBF30037283C /* BitmapFont-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BitmapFont-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F9A44E1D73FC010037283C /* BitmapFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitmapFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F9A4571D73FC010037283C /* BitmapFont-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BitmapFont-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F9A4661D73FC760037283C /* BitmapFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapFont.swift; sourceTree = "<group>"; };
+		45F9A46C1D73FC850037283C /* BitmapFontTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapFontTests.swift; sourceTree = "<group>"; };
+		45F9A4981D73FDD60037283C /* TXT-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "TXT-Font"; sourceTree = "<group>"; };
+		45F9A4BD1D7400870037283C /* BitmapFont-macOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitmapFont-macOS.h"; sourceTree = "<group>"; };
+		45F9A4BE1D7400870037283C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9A4C21D7400920037283C /* BitmapFont-tvOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitmapFont-tvOS.h"; sourceTree = "<group>"; };
+		45F9A4C31D7400920037283C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9A4C71D74009A0037283C /* BitmapFont-watchOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitmapFont-watchOS.h"; sourceTree = "<group>"; };
+		45F9A4C81D74009A0037283C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9A4CC1D7400C10037283C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9A4CF1D7400CE0037283C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F9A4D51D75E5730037283C /* BitmapFont-Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BitmapFont-Structs.swift"; sourceTree = "<group>"; };
+		45F9A4DA1D75E84B0037283C /* XML-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "XML-Font"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,14 +122,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		45F9A4211D73FBE20037283C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A42E1D73FBF30037283C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4381D73FBF30037283C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9A43C1D73FBF30037283C /* BitmapFont.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A44A1D73FC010037283C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4541D73FC010037283C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9A4581D73FC010037283C /* BitmapFont.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		45F9A3F01D73FB070037283C = {
 			isa = PBXGroup;
 			children = (
-				45F9A3FC1D73FB070037283C /* BitmapFont */,
-				45F9A4081D73FB070037283C /* BitmapFontTests */,
+				45F9A4651D73FC760037283C /* Common */,
+				45F9A46B1D73FC850037283C /* Common-Tests */,
+				45F9A4141D73FBB50037283C /* Targets */,
+				45F9A4181D73FBB50037283C /* Targets-Tests */,
 				45F9A3FB1D73FB070037283C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,27 +177,119 @@
 			isa = PBXGroup;
 			children = (
 				45F9A3FA1D73FB070037283C /* BitmapFont.framework */,
-				45F9A4041D73FB070037283C /* BitmapFontTests.xctest */,
+				45F9A4041D73FB070037283C /* BitmapFontTests-iOS.xctest */,
+				45F9A4251D73FBE20037283C /* BitmapFont.framework */,
+				45F9A4321D73FBF30037283C /* BitmapFont.framework */,
+				45F9A43B1D73FBF30037283C /* BitmapFont-tvOSTests.xctest */,
+				45F9A44E1D73FC010037283C /* BitmapFont.framework */,
+				45F9A4571D73FC010037283C /* BitmapFont-macOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45F9A3FC1D73FB070037283C /* BitmapFont */ = {
+		45F9A4141D73FBB50037283C /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				45F9A3FD1D73FB070037283C /* BitmapFont.h */,
-				45F9A3FF1D73FB070037283C /* Info.plist */,
+				45F9A4C61D74009A0037283C /* watchOS */,
+				45F9A4C11D7400920037283C /* tvOS */,
+				45F9A4BC1D7400870037283C /* macOS */,
+				45F9A4151D73FBB50037283C /* iOS */,
 			);
-			path = BitmapFont;
+			path = Targets;
 			sourceTree = "<group>";
 		};
-		45F9A4081D73FB070037283C /* BitmapFontTests */ = {
+		45F9A4151D73FBB50037283C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				45F9A4091D73FB070037283C /* BitmapFontTests.swift */,
-				45F9A40B1D73FB070037283C /* Info.plist */,
+				45F9A4161D73FBB50037283C /* BitmapFont-iOS.h */,
+				45F9A4171D73FBB50037283C /* Info.plist */,
 			);
-			path = BitmapFontTests;
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		45F9A4181D73FBB50037283C /* Targets-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				45F9A4CE1D7400CE0037283C /* tvOS */,
+				45F9A4CB1D7400C10037283C /* macOS */,
+				45F9A4191D73FBB50037283C /* iOS */,
+			);
+			path = "Targets-Tests";
+			sourceTree = "<group>";
+		};
+		45F9A4191D73FBB50037283C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F9A41B1D73FBB50037283C /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		45F9A4651D73FC760037283C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				45DBC4C61D7847EC008A8082 /* BitmapFontParser.swift */,
+				4550AE7C1D76A30000493CBB /* XmlBitmapFontParser.swift */,
+				45DBC4CB1D78499D008A8082 /* TxtBitmapFontParser.swift */,
+				45F9A4661D73FC760037283C /* BitmapFont.swift */,
+				45F9A4D51D75E5730037283C /* BitmapFont-Structs.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		45F9A46B1D73FC850037283C /* Common-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				45F9A46C1D73FC850037283C /* BitmapFontTests.swift */,
+				4550AE831D772DBD00493CBB /* XmlParserTests.swift */,
+				45DBC4C11D784703008A8082 /* TxtParserTests.swift */,
+				45F9A4DA1D75E84B0037283C /* XML-Font */,
+				45F9A4981D73FDD60037283C /* TXT-Font */,
+			);
+			path = "Common-Tests";
+			sourceTree = "<group>";
+		};
+		45F9A4BC1D7400870037283C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F9A4BD1D7400870037283C /* BitmapFont-macOS.h */,
+				45F9A4BE1D7400870037283C /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		45F9A4C11D7400920037283C /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F9A4C21D7400920037283C /* BitmapFont-tvOS.h */,
+				45F9A4C31D7400920037283C /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		45F9A4C61D74009A0037283C /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F9A4C71D74009A0037283C /* BitmapFont-watchOS.h */,
+				45F9A4C81D74009A0037283C /* Info.plist */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
+		45F9A4CB1D7400C10037283C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F9A4CC1D7400C10037283C /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		45F9A4CE1D7400CE0037283C /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F9A4CF1D7400CE0037283C /* Info.plist */,
+			);
+			path = tvOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,16 +299,40 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F9A3FE1D73FB070037283C /* BitmapFont.h in Headers */,
+				45F9A41C1D73FBB50037283C /* BitmapFont-iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4221D73FBE20037283C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9A4C91D74009A0037283C /* BitmapFont-watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A42F1D73FBF30037283C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9A4C41D7400920037283C /* BitmapFont-tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A44B1D73FC010037283C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9A4BF1D7400870037283C /* BitmapFont-macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		45F9A3F91D73FB070037283C /* BitmapFont */ = {
+		45F9A3F91D73FB070037283C /* BitmapFont-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45F9A40E1D73FB070037283C /* Build configuration list for PBXNativeTarget "BitmapFont" */;
+			buildConfigurationList = 45F9A40E1D73FB070037283C /* Build configuration list for PBXNativeTarget "BitmapFont-iOS" */;
 			buildPhases = (
 				45F9A3F51D73FB070037283C /* Sources */,
 				45F9A3F61D73FB070037283C /* Frameworks */,
@@ -113,14 +343,14 @@
 			);
 			dependencies = (
 			);
-			name = BitmapFont;
+			name = "BitmapFont-iOS";
 			productName = BitmapFont;
 			productReference = 45F9A3FA1D73FB070037283C /* BitmapFont.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		45F9A4031D73FB070037283C /* BitmapFontTests */ = {
+		45F9A4031D73FB070037283C /* BitmapFontTests-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45F9A4111D73FB070037283C /* Build configuration list for PBXNativeTarget "BitmapFontTests" */;
+			buildConfigurationList = 45F9A4111D73FB070037283C /* Build configuration list for PBXNativeTarget "BitmapFontTests-iOS" */;
 			buildPhases = (
 				45F9A4001D73FB070037283C /* Sources */,
 				45F9A4011D73FB070037283C /* Frameworks */,
@@ -131,9 +361,99 @@
 			dependencies = (
 				45F9A4071D73FB070037283C /* PBXTargetDependency */,
 			);
-			name = BitmapFontTests;
+			name = "BitmapFontTests-iOS";
 			productName = BitmapFontTests;
-			productReference = 45F9A4041D73FB070037283C /* BitmapFontTests.xctest */;
+			productReference = 45F9A4041D73FB070037283C /* BitmapFontTests-iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45F9A4241D73FBE20037283C /* BitmapFont-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F9A42A1D73FBE20037283C /* Build configuration list for PBXNativeTarget "BitmapFont-watchOS" */;
+			buildPhases = (
+				45F9A4201D73FBE20037283C /* Sources */,
+				45F9A4211D73FBE20037283C /* Frameworks */,
+				45F9A4221D73FBE20037283C /* Headers */,
+				45F9A4231D73FBE20037283C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitmapFont-watchOS";
+			productName = "BitmapFont-watchOS";
+			productReference = 45F9A4251D73FBE20037283C /* BitmapFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45F9A4311D73FBF30037283C /* BitmapFont-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F9A4431D73FBF30037283C /* Build configuration list for PBXNativeTarget "BitmapFont-tvOS" */;
+			buildPhases = (
+				45F9A42D1D73FBF30037283C /* Sources */,
+				45F9A42E1D73FBF30037283C /* Frameworks */,
+				45F9A42F1D73FBF30037283C /* Headers */,
+				45F9A4301D73FBF30037283C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitmapFont-tvOS";
+			productName = "BitmapFont-tvOS";
+			productReference = 45F9A4321D73FBF30037283C /* BitmapFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45F9A43A1D73FBF30037283C /* BitmapFont-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F9A4461D73FBF30037283C /* Build configuration list for PBXNativeTarget "BitmapFont-tvOSTests" */;
+			buildPhases = (
+				45F9A4371D73FBF30037283C /* Sources */,
+				45F9A4381D73FBF30037283C /* Frameworks */,
+				45F9A4391D73FBF30037283C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F9A43E1D73FBF30037283C /* PBXTargetDependency */,
+			);
+			name = "BitmapFont-tvOSTests";
+			productName = "BitmapFont-tvOSTests";
+			productReference = 45F9A43B1D73FBF30037283C /* BitmapFont-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45F9A44D1D73FC010037283C /* BitmapFont-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F9A45F1D73FC010037283C /* Build configuration list for PBXNativeTarget "BitmapFont-macOS" */;
+			buildPhases = (
+				45F9A4491D73FC010037283C /* Sources */,
+				45F9A44A1D73FC010037283C /* Frameworks */,
+				45F9A44B1D73FC010037283C /* Headers */,
+				45F9A44C1D73FC010037283C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitmapFont-macOS";
+			productName = "BitmapFont-macOS";
+			productReference = 45F9A44E1D73FC010037283C /* BitmapFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45F9A4561D73FC010037283C /* BitmapFont-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F9A4621D73FC010037283C /* Build configuration list for PBXNativeTarget "BitmapFont-macOSTests" */;
+			buildPhases = (
+				45F9A4531D73FC010037283C /* Sources */,
+				45F9A4541D73FC010037283C /* Frameworks */,
+				45F9A4551D73FC010037283C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45F9A45A1D73FC010037283C /* PBXTargetDependency */,
+			);
+			name = "BitmapFont-macOSTests";
+			productName = "BitmapFont-macOSTests";
+			productReference = 45F9A4571D73FC010037283C /* BitmapFont-macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -152,6 +472,21 @@
 					45F9A4031D73FB070037283C = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					45F9A4241D73FBE20037283C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					45F9A4311D73FBF30037283C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					45F9A43A1D73FBF30037283C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					45F9A44D1D73FC010037283C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					45F9A4561D73FC010037283C = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = 45F9A3F41D73FB070037283C /* Build configuration list for PBXProject "BitmapFont" */;
@@ -160,14 +495,20 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 45F9A3F01D73FB070037283C;
 			productRefGroup = 45F9A3FB1D73FB070037283C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				45F9A3F91D73FB070037283C /* BitmapFont */,
-				45F9A4031D73FB070037283C /* BitmapFontTests */,
+				45F9A3F91D73FB070037283C /* BitmapFont-iOS */,
+				45F9A4031D73FB070037283C /* BitmapFontTests-iOS */,
+				45F9A4241D73FBE20037283C /* BitmapFont-watchOS */,
+				45F9A4311D73FBF30037283C /* BitmapFont-tvOS */,
+				45F9A43A1D73FBF30037283C /* BitmapFont-tvOSTests */,
+				45F9A44D1D73FC010037283C /* BitmapFont-macOS */,
+				45F9A4561D73FC010037283C /* BitmapFont-macOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +525,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F9A49A1D73FDD60037283C /* TXT-Font in Resources */,
+				45F9A4DB1D75E84B0037283C /* XML-Font in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4231D73FBE20037283C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4301D73FBF30037283C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4391D73FBF30037283C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9A49B1D73FDD60037283C /* TXT-Font in Resources */,
+				45F9A4DC1D75E84B0037283C /* XML-Font in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A44C1D73FC010037283C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4551D73FC010037283C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9A49C1D73FDD60037283C /* TXT-Font in Resources */,
+				45F9A4DD1D75E84B0037283C /* XML-Font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +576,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4550AE7D1D76A30000493CBB /* XmlBitmapFontParser.swift in Sources */,
+				45F9A4D61D75E5730037283C /* BitmapFont-Structs.swift in Sources */,
+				45DBC4C71D7847EC008A8082 /* BitmapFontParser.swift in Sources */,
+				45DBC4CC1D78499D008A8082 /* TxtBitmapFontParser.swift in Sources */,
+				45F9A4671D73FC760037283C /* BitmapFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +588,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45F9A40A1D73FB070037283C /* BitmapFontTests.swift in Sources */,
+				45DBC4C31D784709008A8082 /* TxtParserTests.swift in Sources */,
+				45F9A4731D73FC850037283C /* BitmapFontTests.swift in Sources */,
+				4550AE841D772DBD00493CBB /* XmlParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4201D73FBE20037283C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4550AE7E1D76A3E400493CBB /* XmlBitmapFontParser.swift in Sources */,
+				45F9A4D71D75E5730037283C /* BitmapFont-Structs.swift in Sources */,
+				45DBC4C81D7847EC008A8082 /* BitmapFontParser.swift in Sources */,
+				45DBC4CD1D78499D008A8082 /* TxtBitmapFontParser.swift in Sources */,
+				45F9A4681D73FC760037283C /* BitmapFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A42D1D73FBF30037283C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4550AE801D76A3E700493CBB /* XmlBitmapFontParser.swift in Sources */,
+				45F9A4D81D75E5730037283C /* BitmapFont-Structs.swift in Sources */,
+				45DBC4C91D7847EC008A8082 /* BitmapFontParser.swift in Sources */,
+				45DBC4CE1D78499D008A8082 /* TxtBitmapFontParser.swift in Sources */,
+				45F9A4691D73FC760037283C /* BitmapFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4371D73FBF30037283C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DBC4C41D78470E008A8082 /* TxtParserTests.swift in Sources */,
+				45F9A4741D73FC850037283C /* BitmapFontTests.swift in Sources */,
+				4550AE851D772DBD00493CBB /* XmlParserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4491D73FC010037283C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4550AE7F1D76A3E500493CBB /* XmlBitmapFontParser.swift in Sources */,
+				45F9A4D91D75E5730037283C /* BitmapFont-Structs.swift in Sources */,
+				45DBC4CA1D7847EC008A8082 /* BitmapFontParser.swift in Sources */,
+				45DBC4CF1D78499D008A8082 /* TxtBitmapFontParser.swift in Sources */,
+				45F9A46A1D73FC760037283C /* BitmapFont.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F9A4531D73FC010037283C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DBC4C51D78470F008A8082 /* TxtParserTests.swift in Sources */,
+				45F9A4751D73FC850037283C /* BitmapFontTests.swift in Sources */,
+				4550AE861D772DBD00493CBB /* XmlParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +655,18 @@
 /* Begin PBXTargetDependency section */
 		45F9A4071D73FB070037283C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 45F9A3F91D73FB070037283C /* BitmapFont */;
+			target = 45F9A3F91D73FB070037283C /* BitmapFont-iOS */;
 			targetProxy = 45F9A4061D73FB070037283C /* PBXContainerItemProxy */;
+		};
+		45F9A43E1D73FBF30037283C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F9A4311D73FBF30037283C /* BitmapFont-tvOS */;
+			targetProxy = 45F9A43D1D73FBF30037283C /* PBXContainerItemProxy */;
+		};
+		45F9A45A1D73FC010037283C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45F9A44D1D73FC010037283C /* BitmapFont-macOS */;
+			targetProxy = 45F9A4591D73FC010037283C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -314,11 +769,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BitmapFont/Info.plist;
+				INFOPLIST_FILE = Targets/iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.brae.BitmapFont;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BitmapFont;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -330,11 +785,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BitmapFont/Info.plist;
+				INFOPLIST_FILE = Targets/iOS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.brae.BitmapFont;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = BitmapFont;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -342,7 +797,7 @@
 		45F9A4121D73FB070037283C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = BitmapFontTests/Info.plist;
+				INFOPLIST_FILE = "Targets-Tests/iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.brae.BitmapFontTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,10 +807,182 @@
 		45F9A4131D73FB070037283C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = BitmapFontTests/Info.plist;
+				INFOPLIST_FILE = "Targets-Tests/iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fr.brae.BitmapFontTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45F9A42B1D73FBE20037283C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Targets/watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-watchOS";
+				PRODUCT_NAME = BitmapFont;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		45F9A42C1D73FBE20037283C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Targets/watchOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-watchOS";
+				PRODUCT_NAME = BitmapFont;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		45F9A4441D73FBF30037283C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Targets/tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-tvOS";
+				PRODUCT_NAME = BitmapFont;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		45F9A4451D73FBF30037283C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Targets/tvOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-tvOS";
+				PRODUCT_NAME = BitmapFont;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		45F9A4471D73FBF30037283C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Targets-Tests//tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		45F9A4481D73FBF30037283C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Targets-Tests//tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		45F9A4601D73FC010037283C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Targets/macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-macOS";
+				PRODUCT_NAME = BitmapFont;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		45F9A4611D73FC010037283C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Targets/macOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-macOS";
+				PRODUCT_NAME = BitmapFont;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		45F9A4631D73FC010037283C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Targets-Tests//macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45F9A4641D73FC010037283C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Targets-Tests//macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.brae.BitmapFont-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -371,21 +998,68 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		45F9A40E1D73FB070037283C /* Build configuration list for PBXNativeTarget "BitmapFont" */ = {
+		45F9A40E1D73FB070037283C /* Build configuration list for PBXNativeTarget "BitmapFont-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45F9A40F1D73FB070037283C /* Debug */,
 				45F9A4101D73FB070037283C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		45F9A4111D73FB070037283C /* Build configuration list for PBXNativeTarget "BitmapFontTests" */ = {
+		45F9A4111D73FB070037283C /* Build configuration list for PBXNativeTarget "BitmapFontTests-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				45F9A4121D73FB070037283C /* Debug */,
 				45F9A4131D73FB070037283C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F9A42A1D73FBE20037283C /* Build configuration list for PBXNativeTarget "BitmapFont-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F9A42B1D73FBE20037283C /* Debug */,
+				45F9A42C1D73FBE20037283C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F9A4431D73FBF30037283C /* Build configuration list for PBXNativeTarget "BitmapFont-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F9A4441D73FBF30037283C /* Debug */,
+				45F9A4451D73FBF30037283C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F9A4461D73FBF30037283C /* Build configuration list for PBXNativeTarget "BitmapFont-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F9A4471D73FBF30037283C /* Debug */,
+				45F9A4481D73FBF30037283C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F9A45F1D73FC010037283C /* Build configuration list for PBXNativeTarget "BitmapFont-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F9A4601D73FC010037283C /* Debug */,
+				45F9A4611D73FC010037283C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F9A4621D73FC010037283C /* Build configuration list for PBXNativeTarget "BitmapFont-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F9A4631D73FC010037283C /* Debug */,
+				45F9A4641D73FC010037283C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

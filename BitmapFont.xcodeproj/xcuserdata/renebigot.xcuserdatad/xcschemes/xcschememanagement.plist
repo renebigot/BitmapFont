@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>BitmapFont.xcscheme</key>
+		<key>BitmapFont-iOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>BitmapFont-macOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>BitmapFont-tvOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>BitmapFont-watchOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +33,36 @@
 			<true/>
 		</dict>
 		<key>45F9A4031D73FB070037283C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45F9A4241D73FBE20037283C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45F9A4311D73FBF30037283C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45F9A43A1D73FBF30037283C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45F9A44D1D73FC010037283C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45F9A4561D73FC010037283C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45F9A4A31D73FE1E0037283C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
