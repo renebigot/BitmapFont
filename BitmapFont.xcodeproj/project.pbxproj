@@ -81,6 +81,8 @@
 		45DBC4C11D784703008A8082 /* TxtParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxtParserTests.swift; sourceTree = "<group>"; };
 		45DBC4C61D7847EC008A8082 /* BitmapFontParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapFontParser.swift; sourceTree = "<group>"; };
 		45DBC4CB1D78499D008A8082 /* TxtBitmapFontParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxtBitmapFontParser.swift; sourceTree = "<group>"; };
+		45DBC5151D785422008A8082 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45DBC5161D785EF1008A8082 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		45F9A3FA1D73FB070037283C /* BitmapFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitmapFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F9A4041D73FB070037283C /* BitmapFontTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BitmapFontTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F9A4161D73FBB50037283C /* BitmapFont-iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BitmapFont-iOS.h"; sourceTree = "<group>"; };
@@ -165,6 +167,8 @@
 		45F9A3F01D73FB070037283C = {
 			isa = PBXGroup;
 			children = (
+				45DBC5151D785422008A8082 /* README.md */,
+				45DBC5161D785EF1008A8082 /* LICENSE */,
 				45F9A4651D73FC760037283C /* Common */,
 				45F9A46B1D73FC850037283C /* Common-Tests */,
 				45F9A4141D73FBB50037283C /* Targets */,

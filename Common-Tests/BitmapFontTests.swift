@@ -13,11 +13,13 @@ import XCTest
 
 class BitmapFontTests: XCTestCase {
     var _xmlPath = ""
+    var _txtPath = ""
 
     override func setUp() {
         super.setUp()
 
         _xmlPath = NSBundle(forClass: self.classForCoder).pathForResource("font", ofType: ".fnt", inDirectory: "XML-Font")!
+        _txtPath = NSBundle(forClass: self.classForCoder).pathForResource("font", ofType: ".fnt", inDirectory: "TXT-Font")!
     }
 
     override func tearDown() {
@@ -25,9 +27,15 @@ class BitmapFontTests: XCTestCase {
         super.tearDown()
     }
 
-    func testfetchXML() {
+    func testParseXml() {
         let font = BitmapFont()
         font.parseXml(at: _xmlPath)
+        XCTAssertNotNil(font._parser)
+    }
+
+    func testParseTxt() {
+        let font = BitmapFont()
+        font.parseTxt(at: _txtPath)
         XCTAssertNotNil(font._parser)
     }
 
@@ -107,20 +115,20 @@ class BitmapFontTests: XCTestCase {
     }
 
     func testSingleLineTextSize() {
-        var font = BitmapFont(withXMLFileAt:_xmlPath, fontSize: 144)
+        var font = BitmapFont(withXmlFileAt:_xmlPath, fontSize: 144)
 
         var fontSize = font.sizeForText("Test")
         XCTAssertEqual(fontSize.width, 268)
         XCTAssertEqual(fontSize.height, 160)
 
-        font = BitmapFont(withXMLFileAt:_xmlPath, fontSize: 36)
+        font = BitmapFont(withXmlFileAt:_xmlPath, fontSize: 36)
         fontSize = font.sizeForText("Test")
         XCTAssertEqual(fontSize.width, 67)
         XCTAssertEqual(fontSize.height, 40)
     }
 
     func testMultiLinesTextSize() {
-        var font = BitmapFont(withXMLFileAt:_xmlPath, fontSize: 144)
+        var font = BitmapFont(withXmlFileAt:_xmlPath, fontSize: 144)
 
         var fontSize = font.sizeForText("Test\nwith multiple\nlines" )
         XCTAssertEqual(fontSize.width, 798)
@@ -144,7 +152,7 @@ class BitmapFontTests: XCTestCase {
 
 
 
-        font = BitmapFont(withXMLFileAt:_xmlPath, fontSize: 36)
+        font = BitmapFont(withXmlFileAt:_xmlPath, fontSize: 36)
         fontSize = font.sizeForText("Test\nwith multiple\nlines")
         XCTAssertEqual(fontSize.width, 199.5)
         XCTAssertEqual(fontSize.height, 120)
@@ -167,7 +175,7 @@ class BitmapFontTests: XCTestCase {
     }
 
     func testCreateNode() {
-        let font = BitmapFont(withXMLFileAt:_xmlPath, fontSize: 72)
+        let font = BitmapFont(withXmlFileAt:_xmlPath, fontSize: 72)
 
         let node = font.nodeForText("Test\n\nwith multiple\n|\nlines\n")
         XCTAssertEqual(node.children.count, 23)
@@ -176,7 +184,7 @@ class BitmapFontTests: XCTestCase {
     }
 
     func testCreateNodeWithAlignment() {
-        let font = BitmapFont(withXMLFileAt:_xmlPath, fontSize: 72)
+        let font = BitmapFont(withXmlFileAt:_xmlPath, fontSize: 72)
 
         var node = font.nodeForText("Test\n\nwith multiple\n|\nlines\n", alignment: .Left)
         XCTAssertEqual(node.children[0].position.x, 0)
@@ -198,7 +206,7 @@ class BitmapFontTests: XCTestCase {
     }
 
     func testCreateNodeWithBoundingRect() {
-        let font = BitmapFont(withXMLFileAt:_xmlPath, fontSize: 72)
+        let font = BitmapFont(withXmlFileAt:_xmlPath, fontSize: 72)
 
         let node = font.nodeForText("Test\n\nwith multiple\n|\nlines\n", alignment: .Justified, boundingRect: CGRect(x: 11, y: 22, width: 260, height: 1000))
         XCTAssertEqual(node.position.x, 11)

@@ -13,7 +13,7 @@
 		45DBC4E31D7850BB008A8082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45DBC4E21D7850BB008A8082 /* Assets.xcassets */; };
 		45DBC4E61D7850BB008A8082 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45DBC4E41D7850BB008A8082 /* MainMenu.xib */; };
 		45DBC4EE1D785101008A8082 /* XML-Font in Resources */ = {isa = PBXBuildFile; fileRef = 45DBC4ED1D785101008A8082 /* XML-Font */; };
-		45DBC50C1D785177008A8082 /* BitmapFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DBC5051D785158008A8082 /* BitmapFont.framework */; };
+		45DBC5141D7853B6008A8082 /* BitmapFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DBC5051D785158008A8082 /* BitmapFont.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,13 +66,6 @@
 			remoteGlobalIDString = 45F9A4571D73FC010037283C;
 			remoteInfo = "BitmapFont-macOSTests";
 		};
-		45DBC5081D785158008A8082 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45DBC4EF1D785158008A8082 /* BitmapFont.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 45F9A4A41D73FE1E0037283C;
-			remoteInfo = "BitmapFont-Example";
-		};
 		45DBC50A1D785171008A8082 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45DBC4EF1D785158008A8082 /* BitmapFont.xcodeproj */;
@@ -99,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45DBC50C1D785177008A8082 /* BitmapFont.framework in Frameworks */,
+				45DBC5141D7853B6008A8082 /* BitmapFont.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +140,6 @@
 				45DBC5031D785158008A8082 /* BitmapFont-tvOSTests.xctest */,
 				45DBC5051D785158008A8082 /* BitmapFont.framework */,
 				45DBC5071D785158008A8082 /* BitmapFont-macOSTests.xctest */,
-				45DBC5091D785158008A8082 /* BitmapFont-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -260,13 +252,6 @@
 			fileType = wrapper.cfbundle;
 			path = "BitmapFont-macOSTests.xctest";
 			remoteRef = 45DBC5061D785158008A8082 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45DBC5091D785158008A8082 /* BitmapFont-Example.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "BitmapFont-Example.app";
-			remoteRef = 45DBC5081D785158008A8082 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

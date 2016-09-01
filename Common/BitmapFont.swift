@@ -23,7 +23,7 @@ public class BitmapFont {
 
     var bitmapFontScale: CGFloat = 1
 
-    var _parser = XmlBitmapFontParser()
+    var _parser = BitmapFontParser()
 
     init() {
         common = BitmapFontCommon(lineHeight: 0, base: 0, scaleW: 0, scaleH: 0, pages: 0, packed: false)
@@ -44,7 +44,7 @@ public class BitmapFont {
         characters = [:]
     }
 
-    public convenience init(withXMLFileAt filePath: String, fontSize: CGFloat) {
+    public convenience init(withXmlFileAt filePath: String, fontSize: CGFloat) {
         self.init()
 
         parseXml(at: filePath)
@@ -55,7 +55,19 @@ public class BitmapFont {
         parseKernings()
         parseCharacters()
     }
+    
+    public convenience init(withTxtFileAt filePath: String, fontSize: CGFloat) {
+        self.init()
 
+        parseTxt(at: filePath)
+        parseInfo(fontSize)
+
+        parseCommon()
+        parsePages()
+        parseKernings()
+        parseCharacters()
+    }
+    
     public func nodeForText(text: String) -> SKSpriteNode {
         return nodeForText(text, alignment: .Left)
     }
@@ -187,6 +199,7 @@ public class BitmapFont {
                 let charNode = SKSpriteNode(texture: charTexture, size: destCharRect.size)
                 charNode.anchorPoint = CGPoint(x: 0, y: 1)
                 charNode.position = destCharRect.origin
+                charNode.name = String(character)
                 resultNode.addChild(charNode)
 
                 currentCharDestination.x += characters![newChar]!.xadvance + justifiedCharOffset
@@ -247,6 +260,10 @@ public class BitmapFont {
 
     public func parseXml(at filePath: String) {
         _parser = XmlBitmapFontParser(filePath: filePath)
+    }
+
+    public func parseTxt(at filePath: String) {
+        _parser = TxtBitmapFontParser(filePath: filePath)
     }
 
     func parseCommon() {
