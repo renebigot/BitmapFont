@@ -1,6 +1,6 @@
 # BitmapFont
 
-BitmapFont will allow you to use bitmap font (Both XML or TXT file formats) easily and freely inside your SpriteKit game.
+BitmapFont will allow you to use bitmap font (Both XML or TXT file formats) easily and freely inside your SpriteKit game. (macOS, iOS, tvOS, watchOS)
 
 ## Installation
 
