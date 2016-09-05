@@ -78,6 +78,7 @@
 /* Begin PBXFileReference section */
 		4550AE7C1D76A30000493CBB /* XmlBitmapFontParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlBitmapFontParser.swift; sourceTree = "<group>"; };
 		4550AE831D772DBD00493CBB /* XmlParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmlParserTests.swift; sourceTree = "<group>"; };
+		45BD19281D7D872C00AE5F90 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		45DBC4C11D784703008A8082 /* TxtParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxtParserTests.swift; sourceTree = "<group>"; };
 		45DBC4C61D7847EC008A8082 /* BitmapFontParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapFontParser.swift; sourceTree = "<group>"; };
 		45DBC4CB1D78499D008A8082 /* TxtBitmapFontParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TxtBitmapFontParser.swift; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 		45F9A3F01D73FB070037283C = {
 			isa = PBXGroup;
 			children = (
+				45BD19281D7D872C00AE5F90 /* .travis.yml */,
 				45DBC5151D785422008A8082 /* README.md */,
 				45DBC5161D785EF1008A8082 /* LICENSE */,
 				45F9A4651D73FC760037283C /* Common */,
